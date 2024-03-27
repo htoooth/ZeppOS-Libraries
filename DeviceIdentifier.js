@@ -5,8 +5,6 @@ let isLowRamDevice = deviceClass === "band" ? true : false;
 let deviceRoundRadius = 0;
 let deviceChipset = "";
 
-// What the fuck, real device name didn't match with emulator?
-// Okay, then I'll use deviceSource
 switch(info.deviceSource) {
   case 260:
   case 261:
